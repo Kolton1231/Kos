@@ -1,0 +1,6 @@
+CLEARSCREEN.
+PRINT "Apoapsis = Periapsis".
+RCS ON.
+LOCK STEERING TO (-1) * SHIP:VELOCITY:ORBIT.
+WAIT 10.
+Until SHIP:ALT = Periapsis
